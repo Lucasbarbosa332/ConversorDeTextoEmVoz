@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conversor de Texto para Voz</title>
+  <link rel="stylesheet" href="/Components/text.voz.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Conversor de Texto em Voz</h1>
+
+        <!-- Área de texto e controle de voz -->
+        <textarea id="text-input" placeholder="Digite ou cole seu texto aqui"></textarea>
+        
+        <div class="controls">
+            <button onclick="readText()">Ler Texto</button>
+            <button onclick="saveText()">Salvar Texto</button>
+            <button onclick="toggleVoiceRecognition()">Ativar Reconhecimento de Voz</button>
+        </div>
+        
+        <div>
+            <label for="voice-select">Escolha a Voz:</label>
+            <select id="voice-select"></select>
+        </div>
+        
+        <!-- Histórico de textos -->
+        <h2>Textos Salvos</h2>
+        <ul id="saved-texts"></ul>
+
+        <!-- Feedback e opções avançadas -->
+        <h2>Configurações Avançadas</h2>
+        <label for="rate">Velocidade de fala:</label>
+        <input type="range" id="rate" min="0.1" max="2" step="0.1" value="1">
+        <label for="pitch">Tom de voz:</label>
+        <input type="range" id="pitch" min="0" max="2" step="0.1" value="1">
+
+        <h3>Favoritos</h3>
+        <button onclick="toggleFavorite()">Marcar como Favorito</button>
+
+        <!-- Área de tradução -->
+        <button onclick="translateText()">Traduzir Texto</button>
+
+        <!-- Área de exportação -->
+        <button onclick="exportToPDF()">Exportar para PDF</button>
+
+        <div id="loading-feedback" class="hidden">Processando...</div>
+    </div>
+  <script src="/Components/text.voz.js"></script>
+</body>
+</html>
