@@ -95,6 +95,5 @@ Este projeto é licenciado sob a **MIT License**. Veja o arquivo `LICENSE` para 
 
 ---
 
-Esse **README.md** fornece uma visão geral do projeto e como utilizá-lo. Ele pode ser ampliado com mais detalhes conforme o projeto evolui. Se você adicionar mais funcionalidades ou dependências no futuro, não se esqueça de atualizar este arquivo com as informações relevantes.
 
 
