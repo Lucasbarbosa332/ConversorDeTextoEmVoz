@@ -1,7 +1,5 @@
 # Conversor De Texto Em Voz
 
-# Conversor de Texto em Voz - Projeto Avançado
-
 Este projeto é um **Conversor de Texto em Voz** interativo e avançado, desenvolvido com HTML, CSS e JavaScript. Ele oferece uma série de funcionalidades, como salvar textos, histórico de leituras, reconhecimento de voz, exportação de áudio, tradução de textos, exportação para PDF e muito mais!
 
 ## Funcionalidades
